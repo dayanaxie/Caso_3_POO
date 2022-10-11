@@ -11,6 +11,7 @@ public class Season {
 	private int minRain;
 	private int maxRain;
 	private ArrayList<SeasonEffect> effects;
+	
 	public String getStartDate() {
 		return startDate;
 	}
@@ -23,6 +24,7 @@ public class Season {
 	public void setEndDate(String endDate) {
 		this.endDate = endDate;
 	}
+
 	public String getName() {
 		return name;
 	}
